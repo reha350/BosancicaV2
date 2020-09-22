@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Slider from './slider';
 import i2 from "./images/about/2.jpg";
-import bosancica_slika from "./images/bosancica.jpeg";
+import bosancica_slika from "./images/bosancica.jpg";
 import last from "./images/about/last.jpg";
 
 
