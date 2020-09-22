@@ -34,7 +34,7 @@
 .box-a .about-pic {
     position: relative;
     width: 1024px;
-    padding: 1px ;
+    margin: auto;
     border-radius: 5%;
 }
 
@@ -168,9 +168,20 @@
   
 
   .box-a .about-pic {
-    width: 300px;
+    width: 400px;
     border-radius: 10%;
 }
   }
 
+
+  @media screen and (max-width:360px) {
+
+    .box-a .about-pic {
+      width: 300px;
+      transform: translateX(-12%);
+      border-radius: 10%;
+  }
+    }
+
+  
   

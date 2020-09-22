@@ -5,7 +5,7 @@ import { ReactPhotoCollage } from "react-photo-collage";
 const setting = {
   width: '600px',
   height: ['350px', '200px'],
-  layout: [1, 4],
+  layout: [1, 2, 1],
   photos: [
     { src: 'https://i.ibb.co/fSNyXyy/13.jpg'},
     { src: 'https://i.ibb.co/r0rw1yv/12.jpg'},
@@ -25,7 +25,7 @@ showNumOfRemainingPhotos: true
 const setting2 = {
   width: '600px',
   height: ['350px', '200px'],
-  layout: [2, 3],
+  layout: [2, 3, 1],
   photos: [
     { src: 'https://i.ibb.co/6bRn3V2/6.jpg'}, 
     { src: 'https://i.ibb.co/dWcxwL2/3.jpg'}, 
