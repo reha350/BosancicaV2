@@ -149,14 +149,14 @@
   .odbor-list {
     list-style: none;
   }
-  @media screen and (max-width:600px) {
+  @media screen and (max-width:540px) {
     .pe{
       float: left;
     width: calc(100% / 2);
     }
     .pe img{
-      width: 150px;
-      height: 225px;
+      width: 100px;
+      height: 150px;
       
       border-radius: 8%;
     }
