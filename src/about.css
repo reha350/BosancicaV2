@@ -50,7 +50,7 @@
   max-width: 100%;
   height: auto;
   position: relative;
-  display:flex;
+  display: -webkit-flex;
   flex-wrap: wrap;
   justify-content: center;
 }
