@@ -40,6 +40,10 @@ nav {
   font-family: 'Roboto', sans-serif;
 }
 
+.nav-links-i {
+  margin: 5px;
+}
+
 .nav-links {
   position: absolute;
   width: 50%;

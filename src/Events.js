@@ -9,7 +9,7 @@ import kolacijada4 from "./images/kolacijada/4.jpg";
 const setting = {
   width: '600px',
   height: ['350px', '200px'],
-  layout: [1, 2, 1],
+  layout: [1, 2],
   photos: [
     { src: 'https://i.ibb.co/fSNyXyy/13.jpg'},
     { src: 'https://i.ibb.co/r0rw1yv/12.jpg'},

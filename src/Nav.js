@@ -16,17 +16,17 @@ function Nav() {
       
           <ul className="nav-links">
               <Link style={navStyle} to="/">
-                <li>Start</li>
+                <li className="nav-links-i">Start</li>
               </Link>
               
               <Link style={navStyle} to="/about">
-                <li>Mi</li>
+                <li className="nav-links-i">Mi</li>
               </Link>
               <Link style={navStyle} to="/events">
-                <li>Druženja</li>
+                <li className="nav-links-i">Druženja</li>
               </Link>
               <Link style={navStyle} to="/Contact">
-                <li>Kontakt</li>
+                <li className="nav-links-i">Kontakt</li>
               </Link>
           </ul>
           
