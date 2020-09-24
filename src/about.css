@@ -47,10 +47,10 @@
 
 .box-a .kolacijada {
   margin-top: 50px;
-  max-width: 100%;
   height: auto;
   position: relative;
   display: -webkit-flex;
+  flex: 0 0 100%;
   flex-wrap: wrap;
   justify-content: center;
 }
