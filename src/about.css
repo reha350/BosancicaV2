@@ -46,20 +46,20 @@
 
 
 .box-a .kolacijada {
-  margin-top: 50px;
   height: auto;
   position: relative;
   display: -webkit-flex;
-  flex: 0 0 100%;
-  flex-wrap: wrap;
   justify-content: center;
+  flex-wrap: wrap;
+  flex:  0 0 100%;
+  align-items: center;
 }
 
 .box-a .kolacijada .kposter {
   width: 350px;
-  padding: 10px;
-  max-width: 100%;
-  height: auto;
+  padding: 5px;
+  height: 100% !important;
+  
 }
 
 .kolacijada-list {
@@ -68,10 +68,6 @@
   font-size: large;
 }
 
-.box-a .k_poster {
-  max-width: 100%;
-  height: auto;
-}
 
 
 .box-a p {
