@@ -1,6 +1,7 @@
 import React from 'react';
 import m4 from "./images/mm4.jpg"
 import m5 from "./images/mm5.jpg"
+import Placeholder from "./images/mm_P.jpg"
 
 function Team() {
   return (
@@ -25,7 +26,7 @@ function Team() {
         </div>
 
         <div class="pe">
-          <img src={m4}  alt=""></img>
+          <img src={Placeholder}  alt=""></img>
           <div class="p-name">Neila Kauković</div>
         </div>
 

@@ -10,7 +10,11 @@
 }
 
 .box-bg {
-    background-color: #4d69b023;
+    background-color: #eeeeee;
+}
+
+.box-bg2 {
+  background-color: white;
 }
 
 .box-a .h3 {
@@ -34,8 +38,39 @@
 .box-a .about-pic {
     position: relative;
     width: 1024px;
+    max-width: 100%;
+      height: auto;
     margin: auto;
     border-radius: 5%;
+}
+
+
+.box-a .kolacijada {
+  margin-top: 50px;
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.box-a .kolacijada .kposter {
+  width: 350px;
+  padding: 10px;
+  max-width: 100%;
+  height: auto;
+}
+
+.kolacijada-list {
+  list-style: none;
+  text-align: center;
+  font-size: large;
+}
+
+.box-a .k_poster {
+  max-width: 100%;
+  height: auto;
 }
 
 
@@ -149,6 +184,9 @@
   .odbor-list {
     list-style: none;
   }
+
+  
+
   @media screen and (max-width:540px) {
     .pe{
       float: left;
@@ -168,7 +206,6 @@
   
 
   .box-a .about-pic {
-    width: 400px;
     border-radius: 10%;
 }
   }
@@ -177,8 +214,6 @@
   @media screen and (max-width:360px) {
 
     .box-a .about-pic {
-      width: 300px;
-      transform: translateX(-7%);
       border-radius: 10%;
   }
     }

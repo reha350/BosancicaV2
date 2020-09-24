@@ -1,6 +1,10 @@
 import React from 'react';
 import { render } from "react-dom";
 import { ReactPhotoCollage } from "react-photo-collage";
+import kolacijada1 from "./images/kolacijada/1.jpg";
+import kolacijada2 from "./images/kolacijada/2.jpg";
+import kolacijada3 from "./images/kolacijada/3.jpg";
+import kolacijada4 from "./images/kolacijada/4.jpg";
 
 const setting = {
   width: '600px',
@@ -134,6 +138,42 @@ function Events() {
     <div className="collage">
       <ReactPhotoCollage {...setting3} /> 
     </div>
+
+    <div class="box-bg">
+                   <div class="container"> 
+                        <div class="box-a">
+
+                          <h2 className="h2-title">
+                            Kolačijade
+                          </h2>
+
+                          
+                                <ul className="kolacijada-list">
+                                <li>2017: Nail 5000€</li>
+                                <li>2018: Armin i Ajla 5000€</li> 
+                                <li>2019: Mehmed 10.000€</li> 
+                                <li>2020: Online: 3000€ + 600€ (bajramski Paketići u BiH)</li>
+                       
+                                </ul> 
+                        </div>
+                    </div>
+     </div>
+
+     <div class="box-bg2">
+       <div class="container">
+         <div class="box-a">
+                        <div className="kolacijada">
+                            <img src={kolacijada1} alt="Kolacijada-poster" className="kposter"></img>
+                            <img src={kolacijada2} alt="Kolacijada-poster" className="kposter"></img>
+                            <img src={kolacijada3} alt="Kolacijada-poster" className="kposter"></img>
+                            <img src={kolacijada4} alt="Kolacijada-poster" className="kposter"></img>
+                          </div>
+                        
+         </div>
+       </div>
+     </div>
+
+
 
     <div class="box-bg">
                    <div class="container"> 
