@@ -13,7 +13,6 @@ function Footer() {
       <div className="sponsors">
         <ul className="s-list">
             <li> <a href="http://kfz-gutachter-begovic.de/"><img className="SponsorLogo" src={s1} alt=""/> </a> </li>
-            <li> <a href="https://www.facebook.com/MBArtworks/"><img className="SponsorLogo2" src={s2} alt=""/> </a></li>
        </ul>
 
         <div className="footer">

@@ -14,7 +14,7 @@ function Team() {
             
             <div class="team-section">
     <div class="inner-width">
-      <h1>Trenutni Članovi Odbora</h1>
+      <h1>Rukovodioci KUD-a</h1>
       <div class="pers">
 
 
@@ -28,21 +28,21 @@ function Team() {
         <div class="pe">
           <img src={m2}  alt=""></img>
           <div class="p-name">Adis Zahirovic</div>
-          <div class="p-des">Potpredsjednik</div>
+          <div class="p-des">1. Zamjenik Predsjednice</div>
         </div>
 
         <div class="pe">
           <img src={m6}  alt=""></img>
           
           <div class="p-name">Senad Kmetaš</div>
-          <div class="p-des">2. Potpredsjednik</div>
+          <div class="p-des">1. Zamjenik Predsjednic</div>
         </div>
 
 
         <div class="pe">
           <img src={m5}  alt=""></img>
           <div class="p-name">Semir Muratovic</div>
-          <div class="p-des">Odbor</div>
+          <div class="p-des">Sekretar</div>
 
           </div>
 
@@ -51,7 +51,7 @@ function Team() {
           <img src={m3}  alt=""></img>
           
           <div class="p-name">Almir Botić</div>
-          <div class="p-des">Odbor</div>
+          <div class="p-des">Tehnički rukovodilac</div>
         </div>
 
 
@@ -76,7 +76,7 @@ function Team() {
           <img src={m7}  alt=""></img>
           
           <div class="p-name">Armin Ibišević</div>
-          <div class="p-des">Omladinski Zastupnik</div>
+          <div class="p-des">Omladinski predstavnik</div>
         </div>
 
 

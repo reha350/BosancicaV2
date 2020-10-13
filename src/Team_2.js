@@ -10,24 +10,26 @@ function Team() {
             
             <div class="team-section">
     <div class="inner-width">
-      <h1>Treneri</h1>
+      <h1>Stručni rukovodioci ansambla KUD-a</h1>
       <div class="pers">
 
 
         <div class="pe">
           <img src = {m4}  alt=""></img>
           <div class="p-name">Mersiha Botić</div>
-
+          <div class="p-des">Umjetnički rukovodilac</div>
         </div>
 
         <div class="pe">
         <img src={m5}  alt=""></img>
-          <div class="p-name">Semir Muratovic</div>+
+          <div class="p-name">Semir Muratovic</div>
+          <div class="p-des">Trener</div>
         </div>
 
         <div class="pe">
           <img src={Placeholder}  alt=""></img>
           <div class="p-name">Neila Kauković</div>
+          <div class="p-des">Pomoćna trenerica</div>
         </div>
 
         
