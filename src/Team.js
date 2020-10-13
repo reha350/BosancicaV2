@@ -35,7 +35,7 @@ function Team() {
           <img src={m6}  alt=""></img>
           
           <div class="p-name">Senad Kmetaš</div>
-          <div class="p-des">1. Zamjenik Predsjednic</div>
+          <div class="p-des">1. Zamjenik Predsjednice</div>
         </div>
 
 
