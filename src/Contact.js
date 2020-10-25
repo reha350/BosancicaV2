@@ -15,19 +15,13 @@ function Contact() {
           <div class="box-bg">
           <div className="container-termine">
               <h2>Termine</h2> 
-              <p> Die Proben finden Sonntags in der Feuerwache Ganghoferstr.41 </p>
                 <ul className="time-list">
+
                   <li>
-                    Kinder von 6 bis 12 Jahren von 12:30 bis 13:30 Uhr 
+                    Die Proben finden Sonntags in der Feuerwache Ganghoferstr. 41
                   </li>
                   <li>
-                    Startgruppe von 13.30 bis 14.45 Uhr
-                  </li>  
-                  <li>
-                    Tinis B von 14:45 bis 15:45
-                  </li> 
-                  <li>
-                    Tinis A von 15:45 bis 16:45
+                    Od 12:30 do 14:30 
                   </li>   
                 </ul>  
                   
@@ -50,11 +44,11 @@ function Contact() {
               </div>
 
               <div class="card">
-                <a href="tel:004917620172524">
-                  <FontAwesomeIcon icon="phone" className="fIcon" /> 
+                <a href="https://www.facebook.com/kudbosancica/">
+                  <i class="fab fa-2x fa-facebook-f"></i>
                   <div class="card-content">
-                      <h3>Telefon</h3>
-                      <span>+49 176 20172524</span>
+                      <h3>Facebook</h3>
+                      <span>kudbosancica</span>
                   </div>
                   </a>
               </div>
