@@ -27,7 +27,7 @@ function Team() {
 
         <div class="pe">
           <img src={m2}  alt=""></img>
-          <div class="p-name">Adis Zahirovic</div>
+          <div class="p-name">Adis Zahirović</div>
           <div class="p-des">1. Zamjenik Predsjednice</div>
         </div>
 
