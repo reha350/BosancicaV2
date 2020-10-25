@@ -1,10 +1,12 @@
 import React from 'react';
+import './App.css';
 import { render } from "react-dom";
 import { ReactPhotoCollage } from "react-photo-collage";
 import kolacijada1 from "./images/kolacijada/1.jpg";
 import kolacijada2 from "./images/kolacijada/2.jpg";
 import kolacijada3 from "./images/kolacijada/3.jpg";
 import kolacijada4 from "./images/kolacijada/4.jpg";
+import { Link } from 'react-router-dom';
 
 const setting = {
   width: '600px',
@@ -57,7 +59,6 @@ const setting3 = {
     { src: 'https://i.ibb.co/CmQt5GK/6.jpg'},
     { src: 'https://i.ibb.co/8748RD5/7.jpg'}, 
     { src: 'https://i.ibb.co/CPTCwf2/8.jpg'},
-    { src: 'https://i.ibb.co/xDw7bVQ/9.jpg'},
     { src: 'https://i.ibb.co/k4tGKqK/10.jpg'} 
   ],
 
@@ -66,8 +67,25 @@ showNumOfRemainingPhotos: true
 
 
 function Events() {
+
+  const navStyle = {
+    color: "black"
+}
+
   return (
     <div>
+
+    <nav>
+      <ul className="nav-links">
+              <Link style={navStyle} to="/nasinastupi">
+                <li className="nav-links-i">Naši nastupi</li>
+              </Link>
+
+              <Link style={navStyle} to="/roditelji">
+                <li className="nav-links-i">Naši roditelji i prijatelji</li>
+              </Link>
+      </ul>
+    </nav>
 
     <div class="box-bg">
                    <div class="container"> 
@@ -77,24 +95,16 @@ function Events() {
                             Oktoberfest 2019
                           </h2>
 
-                          <h3 className="h3">
-                          22.9.2019 u Minhenu, glavnom gradu Bavarske otvoren tradicionalni 186. Oktoberfest                           
-                          </h3>
+                          
                           <h3 className="h3">  
-                          Drugog dana Oktoberfesta odrzava se tradicionalni Trachtenumzug, odnosno defile narodnih nosnji koji se neprekidno odrzava od 1948 godine i od tada je sastavni dio festivala. 
-
-                          Prvi put se odrzao 1835 godine u cast vjencanja kralja Ludviga I i 25. godisnjice Oktoberfesta, i do 1948 godine odrzao se jos 4 puta, 1842, 1895, 1910 i 1935.                          
+                            Tradicionalni kulturno zabavni sadržaj u srcu Bavarske je naravno Oktoberfest, koji okuplja ljude iz cijelog svijeta. Drugog
+                            dana Oktoberfesta se održava tradicionalni Trachtenumzug, odnosno defile narodnih nošnji koji je sastavni dio Oktoberfesta. 
+                            Da se bosansko-hercegovačka zastava zavihori i na ovome značajnom događaju, pobrinulo se rukovodstvo i naši članovi, i to ne 
+                            jednom, već dva puta. 
                           </h3>
                           <h3 className="h3">
-                          Koliko je interesovanje javnosti za ovaj defile govori i cinjenica da se isti uzivo prenosi na njemackoj drzavnoj televiziji.                          
-                          </h3>
-
-                          <h3 className="h3">
-                          Na defileu po drugi put, zahvaljujuci clanovima i rukovodstvu Kulturno-umjetnickog drustva Bosancica iz Minhena, kao ravnopravan clan medju oko 9000 ucesnika ponosno se viorila i zastava Bosne i Hercegovine. Prvi put su clanovi Bosancice na ovoj manifestaciji ucestvovali  2017 godine. 
-                          </h3>
-
-                          <h3 className="h3">
-                          U defileu je ucestvovalo 40 clanova KUD-a Bosancica obucenih u  tradicionalnu Bosansku narodnu nosnju, a paznju prisutnih privlacili su najmladji clanovi koji su ponosno defilirali obuceni u narodnu nosnju.
+                            2017/2019 Godine članovi našeg društva su učestvovali na Trachtenumzug i tako predstavljali narode i nošnju Bosne i Hercegovine.
+                            Događaj je prenošen na njemačkoj državnoj televiziji.
                           </h3>
                         </div>
                     </div>
@@ -112,6 +122,33 @@ function Events() {
                           <h2 className="h2-title">
                             Probe
                           </h2>
+
+                          <h3 className="h3">
+                            Vikend !!! Nedjelja !!!
+                          </h3>
+                          <h3 className="h3">
+                            Nekome dan za odmor i relaksaciju, a nama već standardno. Proba !!!
+                          </h3>
+                          <h3 className="h3">
+                            Iz nedjelje u nedjelju se okupljamo sa našim članovima, družimo se, učimo, vježbamo i vrijedno radimo. Naši treneri prenose
+                            svoje znanje na mlađe naraštaje. Uči se ne samo igra i pjesma, već i tradicija i običaji, njeguje se bosanski jezik, naša domaća
+                            kuhinja. 
+                          </h3>
+
+                          <h3 className="h3">
+                            
+                          </h3>
+
+                          <h3 className="h3">
+                            Kolo, kolo, Naokolo, Vilovito, Plahovito, Napleteno, Navezano, Okićeno, Začinjeno
+                          </h3>
+                          <h3 className="h3">
+                            Oj Bosanče, Stara slavo, Tvrdo Srce, Tvrda Glavo, Tvrd si kao kremen kamen
+                          </h3>
+                          <h3 className="h3">
+                            Gdje stanuje živ plamen! 
+                          </h3>
+
                         </div>
                     </div>
      </div>
@@ -129,7 +166,8 @@ function Events() {
                           </h2>
 
                           <h3 className="h3">
-                            Skylinepark, Bayernpark, Airhop, Kletterwald, Salzburg, Nürnberg ...
+                            Nije svaka nedjelja rezervisana samo za probu i vježbu. Trudimo se da pobjegnemo od svakodnevnice i spas pronađemo u prirodi,
+                            jezeru, zabavnim parkovima, posjećujući druge gradove sa našim članovima i prijateljima.
                           </h3>
                         </div>
                     </div>
@@ -146,6 +184,11 @@ function Events() {
                           <h2 className="h2-title">
                             Kolačijade
                           </h2>
+
+                          <h3 className="h3">
+                            2017.  Godine rodila se jedna plemenita ideja. Pomoći nekome u nevolji. Prodajom kolača naši članovi, jednom godišnje iskupljaju novac
+                            i uplaćuju ga za liječenje teško oboljele dijece u Bosni i Hercegovini, kojima je ta pomoć potrebna.
+                          </h3>
 
                           
                                 <ul className="kolacijada-list">

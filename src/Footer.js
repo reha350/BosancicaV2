@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import s1 from "./images/sponsor1.png"
+import s2 from "./images/atrium.png"
+import s3 from "./images/sponsor3.png"
 import './App.css';
 
 
@@ -12,6 +14,8 @@ function Footer() {
       <div className="sponsors">
         <ul className="s-list">
             <li> <a href="http://kfz-gutachter-begovic.de/"><img className="SponsorLogo" src={s1} alt=""/> </a> </li>
+            <li> <img className="SponsorLogo" src={s2} alt=""/></li>
+            <li> <a href="https://www.edeka.de/eh/s%C3%BCdbayern/edeka-jusic-balanstra%C3%9Fe-105/index.jsp"><img className="SponsorLogo" src={s3} alt=""/></a></li>
        </ul>
 
         <div className="footer">
