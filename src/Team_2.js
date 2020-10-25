@@ -22,7 +22,7 @@ function Team() {
 
         <div class="pe">
         <img src={m5}  alt=""></img>
-          <div class="p-name">Semir Muratovic</div>
+          <div class="p-name">Semir Muratović</div>
           <div class="p-des">Trener</div>
         </div>
 
