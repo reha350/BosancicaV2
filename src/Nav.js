@@ -23,7 +23,7 @@ function Nav() {
                 <li className="nav-links-i">Mi</li>
               </Link>
               <Link style={navStyle} to="/events">
-                <li className="nav-links-i">Druženja</li>
+                <li className="nav-links-i">Dešavanja</li>
               </Link>
               <Link style={navStyle} to="/Contact">
                 <li className="nav-links-i">Kontakt</li>

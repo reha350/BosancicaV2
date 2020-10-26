@@ -18,7 +18,7 @@ function Contact() {
                 <ul className="time-list">
 
                   <li>
-                    Die Proben finden Sonntags in der Feuerwache Ganghoferstr. 41
+                    Die Proben finden Sonntags in der Feuerwache Ganghoferstr. 41 statt.
                   </li>
                   <li>
                     Od 12:30 do 17:30 
