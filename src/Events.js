@@ -77,7 +77,7 @@ function Events() {
 
     <nav>
       <ul className="nav-links">
-              <Link style={navStyle} to="/nasinastupi">
+              <Link style={navStyle} to="/nastupi">
                 <li className="nav-links-i">Naši nastupi</li>
               </Link>
 
